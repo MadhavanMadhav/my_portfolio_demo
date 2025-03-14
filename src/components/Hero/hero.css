@@ -1,0 +1,62 @@
+.MainContainer {
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.BlueimgContainer {
+    width: 100vw;
+    display: flex;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Blue-Section {
+    width: 32%;
+    height: 80%;
+    background: #015bb6;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+}
+
+.sub-title{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.paragraph{
+    font-size: 1.4em;
+}
+
+.cv-button {
+    background-color: rgb(32, 139, 32);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cv-button:hover{
+    background: rgb(57, 148, 57);
+}
+
+.profile-Container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
