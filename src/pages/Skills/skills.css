@@ -1,0 +1,38 @@
+.Skills-Icons {
+    width: 100vw;
+    height: 100vh;
+    background: #e7e7e7;
+}
+
+.IconFileOne {
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+}
+
+.Icon {
+    font-size: 45px;
+}
+
+.Icon-One {
+    width: 28vw;
+    height: 37vh;
+    margin-top: 20px;
+    background: rgb(253, 253, 253);
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2e3342;
+    font-size: 1.2em;
+}

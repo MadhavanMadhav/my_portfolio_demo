@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css'
+import Certificate from '../Certificate/certificate'
 
 function Hero() {
     return (
@@ -20,6 +21,7 @@ function Hero() {
                 </div>
 
             </div>
+            <Certificate />
         </div>
     )
 }
