@@ -17,7 +17,7 @@ function Hero() {
                     <button className='cv-button'>Check out my CV</button>
                 </div>
                 <div className='profile-Container'>
-                    <img src="https://th.bing.com/th/id/OIP.Hxv-5vSdIAfuoR_napcRpAHaEo?rs=1&pid=ImgDetMain" alt="" />
+                    <img src="https://png.pngtree.com/template/20190904/ourmid/pngtree-mountain-logo-inside-circle-image_301363.jpg" alt="" />
                 </div>
 
             </div>

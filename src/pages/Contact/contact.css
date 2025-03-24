@@ -3,26 +3,67 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: rgb(220, 228, 235);
-
+    background-color: rgb(243, 243, 243);
+    padding: 48px 0px;
 }
 
 .contact-form {
     width: 50%;
     height: 80%;
     margin-top: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
+    padding: 32px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
-.title{
+.title {
     display: flex;
     justify-content: center;
+    color: #000000;
+    margin: 0px 0px 16px;
 }
 
-.description{
+.description {
     display: flex;
     justify-content: center;
+    color: #374151;
+    margin: 0px 0px 24px;
+}
+
+.NameContainer {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: lightslategrey;
+}
+
+input {
+    padding: 9px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 325px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 1.0em;
+    font-weight: 500;
+}
+
+.box{
+    width: 100%;
+}
+
+.message-box{
+    width: 100%;
+    height: 200%;
 }
