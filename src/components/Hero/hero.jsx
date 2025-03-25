@@ -1,5 +1,7 @@
 import React from 'react'
 import './hero.css'
+import madhavanPhoto from '../../assets/Madhavan-photo.jpeg';
+import cvPDF from '../../assets/pdfs/Madhavan-Resume.pdf';
 import Certificate from '../Certificate/certificate'
 
 function Hero() {
@@ -14,10 +16,10 @@ function Hero() {
                     </p>
                     <p className='paragraph'> I enjoy the process of building something from scratch, from conceptualizing an idea to implementing it into a tangible product.</p>
                     <p className='paragraph'>I believe that technology can be used to make the world a better place.</p>
-                    <button className='cv-button'>Check out my CV</button>
+                    <button className='cv-button' onClick={() => window.open(cvPDF, '_blank')}>Check out my CV</button>
                 </div>
                 <div className='profile-Container'>
-                    <img src="https://png.pngtree.com/template/20190904/ourmid/pngtree-mountain-logo-inside-circle-image_301363.jpg" alt="" />
+                <img src={madhavanPhoto} alt="Madhavan" />
                 </div>
 
             </div>

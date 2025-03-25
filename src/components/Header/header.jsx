@@ -20,12 +20,12 @@ function Header() {
                         <li className="nav-item">
                             <Link to="/skills" className="nav-link">Skills</Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link to="/projects" className="nav-link">Projects</Link>
-                        </li>
-                        <li className="nav-item">
+                        </li> */}
+                        {/* <li className="nav-item">
                             <Link to="/experiences" className="nav-link">Experiences</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <Link to="/contact" className="nav-link">Contact</Link>
                         </li>
@@ -39,9 +39,9 @@ function Header() {
                 <a href="#" className='social-link'>
                     <FaLinkedin />
                 </a>
-                <a href="#" className='social-link'>
+                {/* <a href="#" className='social-link'>
                     <FiInstagram />
-                </a>
+                </a> */}
             </div>
         </header>
     )

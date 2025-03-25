@@ -5,7 +5,7 @@
 .TopContainer {
     width: 100vw;
     height: 14vh;
-    background: #015bb6;
+    background: #1a73e8;
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
@@ -19,6 +19,7 @@
     font-size: 25px;
     margin-left: 80px;
     cursor: pointer;
+    color: #FFFFFF;
 }
 
 .nav-list {
@@ -38,12 +39,13 @@
 .nav-link {
     color: white;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 550;
+    font-size: 1.2rem;
     transition: color 0.4s ease;
 }
 
 .nav-link:hover {
-    color: #36db9c;
+    color: #4ade80;
 }
 
 .social-links {
@@ -59,5 +61,5 @@
 }
 
 .social-link:hover {
-    color: #36db9c;
+    color: #4ade80;
 }

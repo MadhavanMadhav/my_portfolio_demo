@@ -5,7 +5,7 @@ import Header from '../../components/Header/header';
 import { FaHtml5 } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
-import { FaDatabase } from "react-icons/fa";
+// import { FaDatabase } from "react-icons/fa";
 import Copyright from '../../components/Copyright/copyright';
 
 function Skill() {
@@ -42,12 +42,12 @@ function Skill() {
             <label>Using Tailwind CSS to create website </label>
             <label>styles more quickly and easily.</label>
           </div>
-          <div className='Icon-One'>
+          {/* <div className='Icon-One'>
             <label className='Icon'><FaDatabase /></label>
             <h3 className='Skill-Titel'>MySQL</h3>
             <label>Learning to manage data in a database </label>
             <label>using MySQL for website purposes.</label>
-          </div>
+          </div> */}
         </div>
       </div>
       <Copyright />

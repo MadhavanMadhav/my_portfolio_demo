@@ -21,17 +21,20 @@ function Contact() {
                             <input type="text" placeholder="Last Name" />
                         </div>
                     </div>
-                    <div className='form-column'>
-                        <label htmlFor="Your Mail">Your Mail</label>
-                        <input className='box' type="text" placeholder="Your Mail" />
-                    </div>
-                    <div className='form-column'>
-                        <label htmlFor="Phone Number">Phone Number</label>
-                        <input className='box' type="text" placeholder="+91" />
-                    </div>
-                    <div className='form-column'>
-                        <label htmlFor="Your-Message">Your Message</label>
-                        <textarea className='message-box' type="text" placeholder="Write your message here..." />
+                    <div className='DetailsContainer'>
+                        <div className='form-column'>
+                            <label htmlFor="Your Mail">Your Mail</label>
+                            <input className='box' type="text" placeholder="Your Mail" />
+                        </div>
+                        <div className='form-column'>
+                            <label htmlFor="Phone Number">Phone Number</label>
+                            <input className='box' type="text" placeholder="+91" />
+                        </div>
+                        <div className='form-column'>
+                            <label htmlFor="Your-Message">Your Message</label>
+                            <textarea className='message-box' type="text" placeholder="Write your message here..." />
+                        </div>
+                        <button className='send-box'> Send Message</button>
                     </div>
                 </div>
             </div>
